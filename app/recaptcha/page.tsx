@@ -130,8 +130,8 @@ export default function RecaptchaPage() {
             This helps us to combat harmful conduct, detect and prevent spam, and maintain the integrity of our Products.
           </p>
           <p>
-            We've used Google's reCAPTCHA Enterprise product to provide this security check. Your use of reCAPTCHA
-            Enterprise is subject to Google's Privacy Policy and Terms of Use.
+            We&apos;ve used Google&apos;s reCAPTCHA Enterprise product to provide this security check. Your use of reCAPTCHA
+            Enterprise is subject to Google&apos;s Privacy Policy and Terms of Use.
           </p>
           <p>
             reCAPTCHA Enterprise collects hardware and software information, such as device and application data, and
