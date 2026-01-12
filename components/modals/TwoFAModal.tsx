@@ -21,7 +21,7 @@ export function TwoFAModal({
   onClose,
   onSubmit,
   onAttempt,
-  method,
+  method: _method,
   phone,
   email,
   dialCode,
