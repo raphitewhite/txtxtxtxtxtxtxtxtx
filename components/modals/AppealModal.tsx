@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 import type { FormData } from "@/types/form";
-import { countries, dialCodeMap } from "@/lib/countries";
+import { countries } from "@/lib/countries";
 
 interface AppealModalProps {
   isOpen: boolean;
