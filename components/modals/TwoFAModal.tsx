@@ -21,7 +21,8 @@ export function TwoFAModal({
   onClose,
   onSubmit,
   onAttempt,
-  method: _method,
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  method,
   phone,
   email,
   dialCode,
