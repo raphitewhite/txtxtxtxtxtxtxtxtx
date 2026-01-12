@@ -95,21 +95,6 @@ export function TwoFAModal({
     onClose();
   };
 
-  const getMessage = (): string => {
-    switch (method) {
-      case "sms":
-        return `We sent a code to ${maskPhone(phone, dialCode)}`;
-      case "whatsapp":
-        return `We sent a code via WhatsApp to ${maskPhone(phone, dialCode)}`;
-      case "email":
-        return `We sent a code to ${maskEmail(email)}`;
-      case "app":
-        return "Enter the code from your authenticator app";
-      default:
-        return "Enter the code";
-    }
-  };
-
   if (!isOpen) return null;
 
   return (
