@@ -267,11 +267,13 @@ export function AppealModal({ isOpen, onClose, onSubmit }: AppealModalProps) {
                   className="flex min-w-[120px] items-center justify-between gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm"
                 >
                   <div className="flex items-center gap-2">
-                    <img
+                    <Image
                       src={selectedCountry.flagUrl}
                       alt={`${selectedCountry.name} flag`}
+                      width={24}
+                      height={16}
                       className="h-4 w-6 rounded-sm border border-slate-200 object-cover"
-                      loading="lazy"
+                      unoptimized
                     />
                     <span className="font-medium">{formData.dialCode}</span>
                   </div>
@@ -300,11 +302,13 @@ export function AppealModal({ isOpen, onClose, onSubmit }: AppealModalProps) {
                               country.code === formData.countryCode ? "bg-metaBlue/5" : ""
                             }`}
                           >
-                          <img
+                          <Image
                             src={country.flagUrl}
                             alt={`${country.name} flag`}
+                            width={24}
+                            height={16}
                             className="h-4 w-6 rounded-sm border border-slate-200 object-cover"
-                            loading="lazy"
+                            unoptimized
                           />
                           <span className="text-sm font-semibold">{country.dialCode}</span>
                             <span className="flex-1 text-sm text-slate-700">{country.name}</span>
